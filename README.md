@@ -27,7 +27,7 @@
 <h3 align="center">Flutter Bootcamp</h3>
 
   <p align="center">
-    Assignments from Ray Wenderlich's 2022 Flutter Bootcamp, from August 15, to November 10. 
+    Assignments from Ray Wenderlich's 2022 Flutter Bootcamp, from August 15 to November 10. 
   </p>
 </div>
 <br>
@@ -55,18 +55,17 @@
 <!-- CONTACT -->
 ## Contact
 
-Kristina Yin - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Kristina Yin
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Assignments completed by `@kristinayin` for Ray Wenderlich's 13-week Flutter Bootcamp, from August 15, 2022 to November 10, 2022. 
+This repo is dedicated to assignments completed by [`@kristinayin`](https://github.com/kristinayin) for Ray Wenderlich's 2022 Flutter Bootcamp, from August 15, 2022 to November 10, 2022. 
 
-Bootcamp info: https://store.raywenderlich.com/bootcamp
+[About the bootcamp](https://store.raywenderlich.com/bootcamp)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
