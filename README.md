@@ -128,7 +128,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul><img src="https://s4.gifyu.com/images/flutter_doctor.gif" alt="gif running flutter doctor" width="585" height="370"></ul>
 <li>Assignment 4</li>
   <ul>Screenshot of first app</ul>
-  <ul><img src="https://i.ibb.co/XYcgXbp/Screen-Shot-2022-08-21-at-3-31-04-PM.png" alt="first app screenshot"></ul>
+  <ul><img src="https://i.ibb.co/XYcgXbp/Screen-Shot-2022-08-21-at-3-31-04-PM.png" alt="first app screenshot" width="50%" height="50%"></ul>
 <li>Assignment 5</li>
 <li>Assignment 6</li>
 <li>Assignment 7</li>
