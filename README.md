@@ -70,6 +70,7 @@
 Kristina Yin
 
 Discord: kristina#4045
+
 Location: USA
 
 Programming Experience: 
@@ -79,7 +80,7 @@ Hobbies:
 Right now I am interested in UX design and creative programming. 
 
 Goals:
-I hope to be able to build my own apps and have them available in app stores, maybe as a source of passive income.
+I hope to be able to build my own apps and have them available in app stores, hopefully as a source of passive income.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,6 +116,14 @@ This repo is dedicated to assignments completed by [`@kristinayin`](https://gith
 
 <!-- WEEK 1 -->
 ## Week 1
+
+<li>Assignment 1</li>
+<li>Assignment 2</li>
+<li>Assignment 3</li>
+<li>Assignment 4</li>
+<li>Assignment 5</li>
+<li>Assignment 6</li>
+<li>Assignment 7</li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
