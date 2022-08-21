@@ -118,8 +118,14 @@ This repo is dedicated to assignments completed by [`@kristinayin`](https://gith
 ## Week 1
 
 <li>Assignment 1</li>
+  <ul>Set up Git and Github</ul>
 <li>Assignment 2</li>
+  <ul>Create repo and README.md</ul>
 <li>Assignment 3</li>
+  <ul>
+    Set up Flutter
+    <img src="https://s4.gifyu.com/images/flutter_doctor.gif" alt="gif running flutter doctor" width="292.5" height="185">
+  </ul>
 <li>Assignment 4</li>
 <li>Assignment 5</li>
 <li>Assignment 6</li>
