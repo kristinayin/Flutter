@@ -68,6 +68,17 @@
 ## Contact
 
 Kristina Yin
+Discord: kristina#4045
+Location: USA
+
+Programming Experience: 
+I have a B.S. in Computer Science and consider myself an early-career technologist. I have some experience with C++, Java, Python, and web programming (HTML, CSS, JavaScript). 
+
+Hobbies:
+Right now I am interested in UX design and creative programming. 
+
+Goals:
+I hope to be able to build my own apps and have them available in app stores, maybe as a source of passive income.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -166,9 +177,11 @@ This repo is dedicated to assignments completed by [`@kristinayin`](https://gith
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+Mentors
+* [Shree Bhagwat](https://github.com/ShreeBhagwat)
+* [Jayven Nhan](https://github.com/jayvenn)
+* [Stephanie "Stef" Patterson](https://github.com/Stef-GMS)
+* [Sam Smith](https://github.com/samasmith89)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
