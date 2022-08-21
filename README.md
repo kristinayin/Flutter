@@ -41,7 +41,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about-me">About Me</a></li>
     <li>
       <a href="#weekly-assignment-tracker">Weekly Assignments Tracker</a>
       <ul><a href="#week-1">Week 1</a></ul>
@@ -64,8 +64,8 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTACT -->
-## Contact
+<!-- ABOUT ME -->
+## About Me
 
 Kristina Yin
 
