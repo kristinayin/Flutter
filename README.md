@@ -64,6 +64,17 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+This repo is dedicated to assignments completed by [`@kristinayin`](https://github.com/kristinayin) for Ray Wenderlich's 2022 Flutter Bootcamp, from August 15, 2022 to November 10, 2022. 
+
+[About the bootcamp](https://store.raywenderlich.com/bootcamp)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- ABOUT ME -->
 ## About Me
 
@@ -82,15 +93,6 @@ Right now I am interested in UX design and creative programming.
 Goals:
 I hope to be able to build my own apps and have them available in app stores, hopefully as a source of passive income.
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-This repo is dedicated to assignments completed by [`@kristinayin`](https://github.com/kristinayin) for Ray Wenderlich's 2022 Flutter Bootcamp, from August 15, 2022 to November 10, 2022. 
-
-[About the bootcamp](https://store.raywenderlich.com/bootcamp)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,6 +116,7 @@ This repo is dedicated to assignments completed by [`@kristinayin`](https://gith
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- WEEK 1 -->
 ## Week 1
 
@@ -125,6 +128,8 @@ This repo is dedicated to assignments completed by [`@kristinayin`](https://gith
   <ul>Set up Flutter</ul>
   <ul><img src="https://s4.gifyu.com/images/flutter_doctor.gif" alt="gif running flutter doctor" width="585" height="370"></ul>
 <li>Assignment 4</li>
+  <ul>Screenshot of first app</ul>
+  <ul><img src="https://s4.gifyu.com/images/flutter_doctor.gif" alt="first app screenshot"></ul>
 <li>Assignment 5</li>
 <li>Assignment 6</li>
 <li>Assignment 7</li>
