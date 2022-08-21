@@ -30,6 +30,7 @@
     Assignments from Ray Wenderlich's 2022 Flutter Bootcamp, from August 15, to November 10. 
   </p>
 </div>
+<br>
 
 
 
@@ -47,6 +48,7 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+<br>
 
 
 
