@@ -129,7 +129,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul><img src="https://s4.gifyu.com/images/flutter_doctor.gif" alt="gif running flutter doctor" width="585" height="370"></ul>
 <li>Assignment 4</li>
   <ul>Screenshot of first app</ul>
-  <ul>[First App](First App/first_app)</ul>
+  <ul><a href="first_app">First App</a></ul>
   <ul><img src="https://s4.gifyu.com/images/flutter_doctor.gif" alt="first app screenshot"></ul>
 <li>Assignment 5</li>
 <li>Assignment 6</li>
