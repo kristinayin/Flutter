@@ -41,6 +41,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
+    <li><a href="#contact">Contact</a></li>
     <li>
       <a href="#weekly-assignment-tracker">Weekly Assignments Tracker</a>
       <ul><a href="#week-1">Week 1</a></ul>
@@ -56,7 +57,6 @@
       <ul><a href="#week-11">Week 11</a></ul>
       <ul><a href="#week-12">Week 12</a></ul>
     </li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -85,7 +85,7 @@ This repo is dedicated to assignments completed by [`@kristinayin`](https://gith
 <!-- WEEKLY ASSIGNMENTS -->
 ## Weekly Assignment Tracker
 
-- [ ] Week 1
+- [ ] [Week 1](#week-1)
 - [ ] Week 2
 - [ ] Week 3
 - [ ] Week 4
