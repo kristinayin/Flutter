@@ -42,13 +42,6 @@
       <ul>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
     <li><a href="#weekly-assignments">Weekly Assignments Tracker</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -60,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repo is dedicated to assignments completed by `kristinayin` for Ray Wenderlich's 13-week Flutter Bootcamp, from August 15, 2022 to November 10, 2022. 
+Assignments completed by `@kristinayin` for Ray Wenderlich's 13-week Flutter Bootcamp, from August 15, 2022 to November 10, 2022. 
 
 Bootcamp info: https://store.raywenderlich.com/bootcamp
 
