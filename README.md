@@ -98,7 +98,7 @@ This repo is dedicated to assignments completed by [`@kristinayin`](https://gith
 <!-- WEEKLY ASSIGNMENTS -->
 ## Weekly Assignment Tracker
 
-- [ ] [Week 1](#week-1)
+- [X] [Week 1](#week-1)
 - [ ] [Week 2](#week-2)
 - [ ] [Week 3](#week-3)
 - [ ] [Week 4](#week-4)
@@ -196,6 +196,8 @@ Mentors
 * [Jayven Nhan](https://github.com/jayvenn)
 * [Stephanie "Stef" Patterson](https://github.com/Stef-GMS)
 * [Sam Smith](https://github.com/samasmith89)
+* [Kevin Moore](https://github.com/kevindmoore)
+* [Prajwal Belagavi](https://github.com/prajwal27)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
