@@ -27,7 +27,7 @@
 <h3 align="center">Flutter Bootcamp</h3>
 
   <p align="center">
-    This repo is dedicated to assignments from Ray Wenderlich's 2022 Flutter Bootcamp, from August 15, to November 10. 
+    Assignments from Ray Wenderlich's 2022 Flutter Bootcamp, from August 15, to November 10. 
   </p>
 </div>
 
