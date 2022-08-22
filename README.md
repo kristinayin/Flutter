@@ -125,15 +125,15 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul>Create repo and README.md</ul>
 <li>Assignment 3</li>
   <ul>Set up Flutter</ul>
-  <ul><img src="https://s4.gifyu.com/images/flutter_doctor.gif" alt="gif running flutter doctor" width="585" height="370"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/flutter_doctor.gif" alt="gif running flutter doctor" width="585" height="370"></ul>
 <li>Assignment 4</li>
   <ul>Screenshot of first app</ul>
-  <ul><img src="https://i.ibb.co/XYcgXbp/Screen-Shot-2022-08-21-at-3-31-04-PM.png" alt="first app screenshot" width="30%" height="30%"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/screenshot.png" alt="first app screenshot" width="30%" height="30%"></ul>
 <li>Assignment 5</li>
   <ul>Customize look of README.md file</ul>
 <li>Assignment 6</li>
   <ul>Display 6 Pokemon in a List/Grid view</ul>
-  <ul><img src="https://s4.gifyu.com/images/pokemon_app7f9b088a7924c894.gif" alt="first app screenshot" width="30%" height="30%"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/pokemon_app.gif" alt="first app screenshot" width="30%" height="30%"></ul>
 <li>Assignment 7</li>
   <ul>Contact a mentor: I DM'd Stef questions about lateness. I also checked in with people in the Discord if I have submitted my homework correctly.</ul>
 <li>Nice to have</li>
