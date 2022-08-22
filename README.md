@@ -133,10 +133,11 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul>Customize look of README.md file</ul>
 <li>Assignment 6</li>
   <ul>Display 6 Pokemon in a List/Grid view<</ul>
+  <ul><img src="https://s4.gifyu.com/images/pokemon_app7f9b088a7924c894.gif" alt="first app screenshot" width="30%" height="30%"></ul>
 <li>Assignment 7</li>
-  <ul>Contact a mentor: I asked Stef questions about lateness.</ul>
+  <ul>Contact a mentor: I DM'd Stef questions about lateness. I also checked in with people in the Discord if I have submitted my homework correctly.</ul>
 <li>Nice to have</li>
-  <ul></ul>
+  <ul>I changed the theme colors and background color to black/grey, and updated the text color to white so it still shows up in the white background. In the detail page for each pokemon, I added a pokedex description and changed the font weight and style for the pokedex number and pokemon name.</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
