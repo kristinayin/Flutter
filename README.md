@@ -133,7 +133,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul>Customize look of README.md file</ul>
 <li>Assignment 6</li>
   <ul>Display 6 Pokemon in a List/Grid view</ul>
-  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/pokemon_app.gif" alt="first app screenshot" width="30%" height="30%"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/pokemon_app.gif" alt="gif pokemon app" width="30%" height="30%"></ul>
 <li>Assignment 7</li>
   <ul>Contact a mentor: I DM'd Stef questions about lateness. I also checked in with people in the Discord if I have submitted my homework correctly.</ul>
 <li>Nice to have</li>
