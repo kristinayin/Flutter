@@ -45,25 +45,45 @@ class _PokemonDetailState extends State<PokemonDetail> {
             // 6
             Text(
               widget.pokemon.name,
-              style: const TextStyle(fontSize: 18),
+              style: const TextStyle(
+                fontSize: 22,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
             ),
             Text(
               widget.pokemon.num,
-              style: const TextStyle(fontSize: 18),
+              style: const TextStyle(
+                fontSize: 18,
+                color: Colors.white,
+                fontStyle: FontStyle.italic,
+              ),
             ),
             Text(
               widget.pokemon.type,
-              style: const TextStyle(fontSize: 18),
+              style: const TextStyle(
+                fontSize: 18,
+                color: Colors.white,
+              ),
             ),
             Text(
               widget.pokemon.location,
-              style: const TextStyle(fontSize: 18),
+              style: const TextStyle(
+                fontSize: 18,
+                color: Colors.white,
+              ),
             ),
             Text(
               widget.pokemon.descrip,
-              style: const TextStyle(fontSize: 18),
+              textAlign: TextAlign
+                  .center, // TODO: Why does this center alignment not work?
+              style: const TextStyle(
+                fontSize: 18,
+                color: Colors.white,
+              ),
             ),
             // 7
+            /*
             Expanded(
               // 8
               child: ListView.builder(
@@ -78,6 +98,7 @@ class _PokemonDetailState extends State<PokemonDetail> {
                 },
               ),
             ),
+            */
             /*
             Slider(
               // 10

@@ -19,13 +19,34 @@ class PokemonApp extends StatelessWidget {
     return MaterialApp(
       // 4
       title: 'Pokedex',
-      // 5
-      theme: theme.copyWith(
-        colorScheme: theme.colorScheme.copyWith(
-          primary: Colors.grey,
-          secondary: Colors.black,
+      /*
+      theme: ThemeData(
+        primaryColor: Color.fromARGB(255, 23, 3, 3),
+        appBarTheme: const AppBarTheme(
+          elevation: 0.0,
+          backgroundColor: Colors.black,
+          titleTextStyle: TextStyle(
+            color: Colors.black,
+            fontSize: 40,
+            fontFamily: 'Pokemon',
+          ),
         ),
       ),
+      */
+      // 5
+
+      theme: theme.copyWith(
+        colorScheme: theme.colorScheme.copyWith(
+          primary: Color.fromARGB(255, 23, 3, 3),
+          secondary: Color.fromARGB(255, 106, 106, 106),
+        ),
+        textTheme: theme.textTheme.apply(
+          fontFamily:
+              'Pokemon', // TODO: how to change title font family and/or use an image/logo?
+        ),
+        scaffoldBackgroundColor: Colors.black,
+      ),
+
       // 6
       home: const MyHomePage(title: 'Pokedex'),
     );
@@ -56,9 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // 1
     return Scaffold(
       // 2
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      appBar: AppBar(title: Image.asset('assets/title.png', fit: BoxFit.cover)),
       // 3
       body: SafeArea(
         child: ListView.builder(
@@ -91,8 +110,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget buildPokemonCard(Pokemon pokemon) {
     // 1
     return Card(
+      color: Colors.black,
       // 1
-      elevation: 2.0,
+      elevation: 0.0,
       // 2
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
       // 3
@@ -113,7 +133,8 @@ class _MyHomePageState extends State<MyHomePage> {
               style: const TextStyle(
                 fontSize: 20.0,
                 fontWeight: FontWeight.w700,
-                fontFamily: 'Palatino',
+                fontFamily: 'Pokemon',
+                color: Colors.white,
               ),
             ),
 
@@ -123,7 +144,8 @@ class _MyHomePageState extends State<MyHomePage> {
               style: const TextStyle(
                 fontSize: 20.0,
                 fontWeight: FontWeight.w700,
-                fontFamily: 'Palatino',
+                fontFamily: 'Pokemon',
+                color: Colors.white,
               ),
             ),
           ],

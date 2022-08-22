@@ -130,8 +130,13 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul>Screenshot of first app</ul>
   <ul><img src="https://i.ibb.co/XYcgXbp/Screen-Shot-2022-08-21-at-3-31-04-PM.png" alt="first app screenshot" width="30%" height="30%"></ul>
 <li>Assignment 5</li>
+  <ul>Customize look of README.md file</ul>
 <li>Assignment 6</li>
+  <ul>Display 6 Pokemon in a List/Grid view<</ul>
 <li>Assignment 7</li>
+  <ul>Contact a mentor: I asked Stef questions about lateness.</ul>
+<li>Nice to have</li>
+  <ul></ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
