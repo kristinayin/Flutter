@@ -1,5 +1,11 @@
 import 'dart:math';
 
+dynamic pythag(int degree) {
+  double radian = degree * (pi / 180);
+  dynamic x = (pow(sin(radian), 2) + pow(cos(radian), 2));
+  return x;
+}
+
 void main() {
   /*
   int myAge = 22; // mini exercise 1
@@ -61,5 +67,20 @@ void main() {
   print("The largest root has the value equal to " + largest.toString());
   print("'''");
 
+  // Assignment 2
+  int y = 45;
+  var result = pythag(y);
+  print("'''");
+  print("The value of the expression sin^2(" +
+      y.toString() +
+      ") + cos^2(" +
+      y.toString() +
+      ") is " +
+      result.toString() +
+      " and its run type value is " +
+      result.runtimeType.toString());
+  print("'''");
+
+  // Assignment 3
   
 }
