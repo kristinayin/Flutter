@@ -144,6 +144,16 @@ I hope to be able to build my own apps and have them available in app stores, ho
 <!-- WEEK 2 -->
 ## Week 2
 
+<li>Assignment 1</li>
+  <ul></ul>
+<li>Assignment 2</li>
+  <ul></ul>
+<li>Assignment 3</li>
+  <ul></ul>
+<li>Assignment 4</li>
+  <ul></ul>
+<li>Assignment 5</li>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- WEEK 3 -->
