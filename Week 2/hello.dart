@@ -40,6 +40,7 @@ void main() {
   const double averageRating = (rating1 + rating2 + rating3) / 3;
   */
 
+  /*
   // Challenge 5
   const double a = 6;
   const double b = 11;
@@ -66,6 +67,7 @@ void main() {
       root2.toInt().toString());
   print("The largest root has the value equal to " + largest.toString());
   print("'''");
+  */
 
   // Assignment 2
   int y = 45;
@@ -82,5 +84,4 @@ void main() {
   print("'''");
 
   // Assignment 3
-  
 }
