@@ -8,7 +8,7 @@ void main() {
   const testNumber = 1; // mini exercise 3
   const evenOdd = testNumber % 2;
   */
-
+  /*
   // Challenge 1
   const int myAge = 22;
   int dogs = 0;
@@ -32,11 +32,12 @@ void main() {
   const double rating2 = 5.5;
   const double rating3 = 9.8;
   const double averageRating = (rating1 + rating2 + rating3) / 3;
+  */
 
   // Challenge 5
-  const double a = 1.2;
-  const double b = 5.5;
-  const double c = 9.8;
+  const double a = 6;
+  const double b = 11;
+  const double c = -35;
   final double root1 = (-b + sqrt(pow(b, 2) - (4 * a * c))) / (2 * a);
   final double root2 = (-b - sqrt(pow(b, 2) - (4 * a * c))) / (2 * a);
 
@@ -47,4 +48,18 @@ void main() {
   } else {
     largest = root2;
   }
+
+  print("'''");
+  print("The first root of the equation is " +
+      root1.toString() +
+      " and its integer is " +
+      root1.toInt().toString());
+  print("The first root of the equation is " +
+      root2.toString() +
+      " and its integer is " +
+      root2.toInt().toString());
+  print("The largest root has the value equal to " + largest.toString());
+  print("'''");
+
+  
 }
