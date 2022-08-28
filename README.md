@@ -145,7 +145,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
 ## Week 2
 
 <li>Assignment 1</li>
-  <ul>This assignmnet follows Challenge 5 in Chapter 2 of Dart Apprentice. The final print is shown below:</ul>
+  <ul>This assignment follows Challenge 5 in Chapter 2 of Dart Apprentice. The final print is shown below:</ul>
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment1.png" alt="assignment 1 week 2" width="50%" height="50%"></ul>
 <li>Assignment 2</li>
    <ul>I created a method that takes in the angle (in degrees) and plugging it into the trig identity sin^2(x)+cos^2(x). The final print is shown below:</ul>
