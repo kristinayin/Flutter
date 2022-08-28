@@ -13,8 +13,7 @@ void main() {
   averageAge = (22 + 21) / 2;
   const testNumber = 1; // mini exercise 3
   const evenOdd = testNumber % 2;
-  */
-  /*
+  
   // Challenge 1
   const int myAge = 22;
   int dogs = 0;
@@ -38,9 +37,7 @@ void main() {
   const double rating2 = 5.5;
   const double rating3 = 9.8;
   const double averageRating = (rating1 + rating2 + rating3) / 3;
-  */
 
-  /*
   // Challenge 5
   const double a = 6;
   const double b = 11;
@@ -67,7 +64,6 @@ void main() {
       root2.toInt().toString());
   print("The largest root has the value equal to " + largest.toString());
   print("'''");
-  */
 
   // Assignment 2
   int y = 45;
@@ -82,6 +78,8 @@ void main() {
       " and its run type value is " +
       result.runtimeType.toString());
   print("'''");
+  */
 
   // Assignment 3
+  num 
 }
