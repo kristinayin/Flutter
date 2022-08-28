@@ -157,7 +157,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
 <li>Assignment 5</li>
   <ul></ul>
 <li>Nice to have</li>
-  <ul>I made sure all my variables followed the lowerCamelCase naming convention.</ul>
+  <ul>I made sure all my variables followed the lowerCamelCase naming convention. In Assignment 3, instead of initializing 7 variables, I created 7 lists of num, String, etc. with options that my story will randomly pick.</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,9 +1,24 @@
 import 'dart:math';
 
-dynamic trig(int degree) { // Used dynamic for the purpose of assigning value to var and seeing what the runtimeType is
+dynamic trig(int degree) {
+  // Used dynamic for the purpose of assigning value to var and seeing what the runtimeType is
   double radian = degree * (pi / 180);
   dynamic x = (pow(sin(radian), 2) + pow(cos(radian), 2));
   return x;
+}
+
+// used for Assignment 3 lists
+dynamic pickOneNum(List<num> numList) {
+  final random = new Random();
+  dynamic element = numList[random.nextInt(numList.length)];
+  return element;
+}
+
+// used for Assignment 3 lists
+dynamic pickOneString(List<String> stringList) {
+  final random = new Random();
+  dynamic element = stringList[random.nextInt(stringList.length)];
+  return element;
 }
 
 void main() {
@@ -81,5 +96,94 @@ void main() {
   */
 
   // Assignment 3
-  num 
+
+  List<num> numList1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  List<num> numList2 = [
+    11111.11,
+    100000000,
+    0,
+    500,
+    3842,
+    40686490,
+    4395829,
+    97899,
+    98789.2,
+    8349570.23
+  ];
+  List<String> adj = [
+    "clever",
+    "energetic",
+    "boisterous",
+    "intelligent",
+    "awesome",
+    "gorgeous",
+    "stellar",
+    "spectacular",
+    "wondorous",
+    "fearless"
+  ];
+  List<String> name = [
+    "Annika",
+    "Arun",
+    "Dave",
+    "Gift",
+    "Jonas",
+    "Kristina",
+    "Luna",
+    "Raul",
+    "Reshu",
+    "Sarada"
+  ];
+  List<String> verb = [
+    "dance",
+    "fly",
+    "ski",
+    "sleep",
+    "investigate",
+    "teleport",
+    "levitate",
+    "climb",
+    "haunt",
+    "debate"
+  ];
+  List<String> items = [
+    "sneakers",
+    "magic balls",
+    "flying carpets",
+    "jewelry",
+    "leather jackets",
+    "shampoos",
+    "cannonballs",
+    "goggles",
+    "flowers",
+    "door handles"
+  ];
+
+  List<String> job = [
+    "detective",
+    "pokemon trainer",
+    "wizard",
+    "Olympic gymnast",
+    "Youtuber",
+    "president",
+    "astronaut",
+    "musician",
+    "actor",
+    "alchemist"
+  ];
+
+  List<String> location = [
+    "Los Angeles",
+    "Silicon Valley",
+    "Hogwarts",
+    "Europe",
+    "Hyrule",
+    "Willy Wonka's Factory",
+    "Neverland",
+    "New York",
+    "space",
+    "Jurassic Park"
+  ];
+
+  
 }
