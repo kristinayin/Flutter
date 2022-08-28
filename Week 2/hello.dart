@@ -1,6 +1,6 @@
 import 'dart:math';
 
-dynamic pythag(int degree) {
+dynamic trig(int degree) { // Used dynamic for the purpose of assigning value to var and seeing what the runtimeType is
   double radian = degree * (pi / 180);
   dynamic x = (pow(sin(radian), 2) + pow(cos(radian), 2));
   return x;
@@ -67,7 +67,7 @@ void main() {
 
   // Assignment 2
   int y = 45;
-  var result = pythag(y);
+  var result = trig(y);
   print("'''");
   print("The value of the expression sin^2(" +
       y.toString() +
