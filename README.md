@@ -152,7 +152,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
     <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment2.png" alt="assignment 2 week 2" width="70%" height="70%"></ul>
 <li>Assignment 3</li>
   <ul>I created a 'story generator' that plugs in randomly selected keywords from lists (2 num lists and 6 string lists). The story is ~150 words (147 to be exact). This is one of the generated results:</ul>
-  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment3.png" alt="assignment 2 week 2" width="70%" height="70%"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment3.png" alt="assignment 2 week 2" width="90%" height="90%"></ul>
 <li>Assignment 4</li>
   <ul></ul>
 <li>Assignment 5</li>
