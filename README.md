@@ -144,6 +144,8 @@ I hope to be able to build my own apps and have them available in app stores, ho
 <!-- WEEK 2 -->
 ## Week 2
 
+<p>Assignments 1-3 are in the hello.dart file in the Week 2 folder.</p>
+
 <li>Assignment 1</li>
   <ul>This assignment follows Challenge 5 in Chapter 2 of Dart Apprentice. The final print is shown below:</ul>
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment1.png" alt="assignment 1 week 2" width="70%" height="70%"></ul>
