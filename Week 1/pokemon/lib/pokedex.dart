@@ -1,60 +1,9 @@
 import 'package:flutter/material.dart';
 import 'pokemon.dart';
-import 'pokedex.dart';
+import 'pokemon_detail.dart'; 
 
-void main() {
-  runApp(const PokemonApp());
-}
-
-class PokemonApp extends StatelessWidget {
-  const PokemonApp({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
-  // 1
-  @override
-  Widget build(BuildContext context) {
-    // 2
-    final ThemeData theme = ThemeData();
-    // 3
-    return MaterialApp(
-      // 4
-      title: 'Pokedex',
-      /*
-      theme: ThemeData(
-        primaryColor: Color.fromARGB(255, 23, 3, 3),
-        appBarTheme: const AppBarTheme(
-          elevation: 0.0,
-          backgroundColor: Colors.black,
-          titleTextStyle: TextStyle(
-            color: Colors.black,
-            fontSize: 40,
-            fontFamily: 'Pokemon',
-          ),
-        ),
-      ),
-      */
-      // 5
-
-      theme: theme.copyWith(
-        colorScheme: theme.colorScheme.copyWith(
-          primary: Color.fromARGB(255, 23, 3, 3),
-          secondary: Color.fromARGB(255, 106, 106, 106),
-        ),
-        textTheme: theme.textTheme.apply(
-          fontFamily:
-              'Pokemon', // TODO: how to change title font family and/or use an image/logo?
-        ),
-        scaffoldBackgroundColor: Colors.black,
-      ),
-
-      // 6
-      home: const MyHomePage(title: 'Pokedex'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
+class Pokedex extends StatefulWidget {
+  const Pokedex({Key? key, required this.title}) : super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -68,10 +17,12 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  _PokedexState createState() {
+    return _PokedexState();
+  }
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _PokedexState extends State<Pokedex> {
   @override
   Widget build(BuildContext context) {
     // 1
@@ -95,8 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   MaterialPageRoute(
                     builder: (context) {
                       // 10
-                      // return Pokedex(pokemon: Pokemon.pokedex[index]);
-                      return Pokedex(title: 'pokedex');
+                      return PokemonDetail(pokemon: Pokemon.pokedex[index]);
                     },
                   ),
                 );
