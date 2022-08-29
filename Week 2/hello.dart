@@ -1,14 +1,15 @@
 import 'dart:math';
-import 'package:characters/characters.dart';
 
 dynamic trig(int degree) {
   // Used dynamic for the purpose of assigning value to var and seeing what the runtimeType is
-  double radian = degree * (pi / 180);
-  dynamic x = (pow(sin(radian), 2) + pow(cos(radian), 2));
+  double radian = degree * (pi / 180); // convert degree to radians
+  dynamic x = (pow(sin(radian), 2) + pow(cos(radian), 2)); // sin^2(x) + cos^(x)
   return x;
 }
 
 // used for Assignment 3 lists
+// input: list of num variables
+// output: an elem of the list as a String
 String pickOneNum(List<num> numList) {
   final random = new Random();
   dynamic element = numList[random.nextInt(numList.length)];
@@ -16,6 +17,7 @@ String pickOneNum(List<num> numList) {
 }
 
 // used for Assignment 3 lists
+// select an element from a list of Strings
 String pickOneStr(List<String> strList) {
   final random = new Random();
   String element = strList[random.nextInt(strList.length)];
@@ -190,6 +192,10 @@ void main() {
       pickOneStr(adj) +
       " " +
       pickOneStr(name) +
+      " and " +
+      pickOneStr(adj) +
+      " " +
+      pickOneStr(name) +
       " wanted to " +
       pickOneStr(verb) +
       " at " +
@@ -198,12 +204,41 @@ void main() {
       pickOneNum(numList1) +
       " " +
       pickOneStr(items) +
-      ", which costs \$" +
+      ", " +
+      pickOneNum(numList1) +
+      " " +
+      pickOneStr(items) +
+      ", and " +
+      pickOneNum(numList1) +
+      " " +
+      pickOneStr(items) +
+      " which costs \$" +
       pickOneNum(numList2) +
-      "." +
-      " In order to cover the cost, they decided to work as a " +
+      " total. They did not have the money on hand. In order to cover the cost, they decided to work as a " +
+      pickOneStr(job) +
+      " and a " +
       pickOneStr(job) +
       " for " +
       pickOneNum(numList1) +
-      " months.");
+      " months respectively. They ended up raising \$" +
+      pickOneNum(numList2) +
+      " toward their goal. So, instead, they decided to " +
+      pickOneStr(verb) +
+      " at " +
+      pickOneStr(location) +
+      " and invited their good friends " +
+      pickOneStr(name) +
+      " and " +
+      pickOneStr(name) +
+      " as well. Their trip lasted for " +
+      pickOneNum(numList1) +
+      " months. Their adventure ended up being " +
+      pickOneStr(adj) +
+      ". They all learned how to be more " +
+      pickOneStr(adj) +
+      " individuals and were able to still have \$" +
+      pickOneNum(numList2) +
+      " left over. But in the end, it was not about the destination, but the " +
+      pickOneStr(adj) +
+      " friends they made along the way.");
 }
