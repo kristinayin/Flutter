@@ -151,7 +151,8 @@ I hope to be able to build my own apps and have them available in app stores, ho
    <ul>I created a method that takes in the angle (in degrees) and plugs it into the trig identity sin^2(x)+cos^2(x). The final print is shown below:</ul>
     <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment2.png" alt="assignment 2 week 2" width="50%" height="50%"></ul>
 <li>Assignment 3</li>
-  <ul></ul>
+  <ul>I created a 'story generator' that plugs in randomly selected keywords from lists (2 num lists and 6 string lists). The story is ~150 words (147 to be exact).</ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment2.png" alt="assignment 2 week 2" width="50%" height="50%"></ul>
 <li>Assignment 4</li>
   <ul></ul>
 <li>Assignment 5</li>
