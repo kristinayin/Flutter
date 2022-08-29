@@ -100,7 +100,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
 ## Weekly Assignment Tracker
 
 - [X] [Week 1](#week-1)
-- [ ] [Week 2](#week-2)
+- [X] [Week 2](#week-2)
 - [ ] [Week 3](#week-3)
 - [ ] [Week 4](#week-4)
 - [ ] [Week 5](#week-5)
