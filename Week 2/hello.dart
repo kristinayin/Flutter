@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'package:characters/characters.dart';
 
 dynamic trig(int degree) {
   // Used dynamic for the purpose of assigning value to var and seeing what the runtimeType is
@@ -8,16 +9,16 @@ dynamic trig(int degree) {
 }
 
 // used for Assignment 3 lists
-dynamic pickOneNum(List<num> numList) {
+String pickOneNum(List<num> numList) {
   final random = new Random();
   dynamic element = numList[random.nextInt(numList.length)];
-  return element;
+  return element.toString();
 }
 
 // used for Assignment 3 lists
-dynamic pickOneString(List<String> stringList) {
+String pickOneStr(List<String> strList) {
   final random = new Random();
-  dynamic element = stringList[random.nextInt(stringList.length)];
+  String element = strList[random.nextInt(strList.length)];
   return element;
 }
 
@@ -97,7 +98,7 @@ void main() {
 
   // Assignment 3
 
-  List<num> numList1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  List<num> numList1 = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
   List<num> numList2 = [
     11111.11,
     100000000,
@@ -107,7 +108,7 @@ void main() {
     40686490,
     4395829,
     97899,
-    98789.2,
+    98789.20,
     8349570.23
   ];
   List<String> adj = [
@@ -185,5 +186,24 @@ void main() {
     "Jurassic Park"
   ];
 
-  
+  print("The " +
+      pickOneStr(adj) +
+      " " +
+      pickOneStr(name) +
+      " wanted to " +
+      pickOneStr(verb) +
+      " at " +
+      pickOneStr(location) +
+      ". In order to accomplish this, they had to buy " +
+      pickOneNum(numList1) +
+      " " +
+      pickOneStr(items) +
+      ", which costs \$" +
+      pickOneNum(numList2) +
+      "." +
+      " In order to cover the cost, they decided to work as a " +
+      pickOneStr(job) +
+      " for " +
+      pickOneNum(numList1) +
+      " months.");
 }
