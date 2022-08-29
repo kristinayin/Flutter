@@ -230,7 +230,19 @@ void main() {
       pickOneStr(name) +
       " and " +
       pickOneStr(name) +
-      " as well. Their trip lasted for " +
+      " as well. They all packed " +
+      pickOneNum(numList1) +
+      " " +
+      pickOneStr(items) +
+      ", " +
+      pickOneNum(numList1) +
+      " " +
+      pickOneStr(items) +
+      ", and " +
+      pickOneNum(numList1) +
+      " " +
+      pickOneStr(items) +
+      ". Their trip lasted for " +
       pickOneNum(numList1) +
       " months. Their adventure ended up being " +
       pickOneStr(adj) +
