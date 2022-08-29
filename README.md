@@ -154,11 +154,12 @@ I hope to be able to build my own apps and have them available in app stores, ho
     <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment2.png" alt="assignment 2 week 2" width="70%" height="70%"></ul>
 <li>Assignment 3</li>
   <ul>I created a 'story generator' that plugs in randomly selected keywords from lists (2 num lists and 6 string lists). The story is ~150 words (147 to be exact). This is one of the generated results:</ul>
-  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment3.png" alt="assignment 2 week 2" width="90%" height="90%"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment3.png" alt="assignment 3 week 2" width="90%" height="90%"></ul>
 <li>Assignment 4</li>
   <ul>I made sure to have comments throughout my code.</ul>
 <li>Assignment 5</li>
   <ul>I added a login page with email and password fields and a login button to my pokemon app from last week (Week 1 folder).</ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment5.gif" alt="gif pokemon app" width="30%" height="30%"></ul>
 <li>Nice to have</li>
   <ul>I made sure all my variables followed the lowerCamelCase naming convention. In Assignment 3, instead of initializing 7 variables, I created 8 lists of num, String, etc. with options that my story will randomly pick.</ul>
 
