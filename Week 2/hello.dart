@@ -9,17 +9,17 @@ dynamic trig(int degree) {
 
 // used for Assignment 3 lists
 // input: list of num variables
-// output: an elem of the list as a String
+// output: a random elem of the list as a String
 String pickOneNum(List<num> numList) {
-  final random = new Random();
+  final random = new Random(); // from dart:math
   dynamic element = numList[random.nextInt(numList.length)];
   return element.toString();
 }
 
 // used for Assignment 3 lists
-// select an element from a list of Strings
+// select a random element from a list of Strings
 String pickOneStr(List<String> strList) {
-  final random = new Random();
+  final random = new Random(); // from dart:math
   String element = strList[random.nextInt(strList.length)];
   return element;
 }
