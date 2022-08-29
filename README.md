@@ -125,7 +125,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul>Create repo and README.md</ul>
 <li>Assignment 3</li>
   <ul>Set up Flutter</ul>
-  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/flutter_doctor.gif" alt="gif running flutter doctor" width="585" height="370"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/flutter_doctor.gif" alt="gif running flutter doctor" width="50%" height="50%"></ul>
 <li>Assignment 4</li>
   <ul>Screenshot of first app</ul>
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/screenshot.png" alt="first app screenshot" width="30%" height="30%"></ul>
