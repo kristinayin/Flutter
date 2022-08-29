@@ -156,7 +156,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
 <li>Assignment 4</li>
   <ul>I made sure to have comments throughout my code.</ul>
 <li>Assignment 5</li>
-  <ul></ul>
+  <ul>I added a login page with email and password fields and a login button to my pokemon app from last week (Week 1 folder).</ul>
 <li>Nice to have</li>
   <ul>I made sure all my variables followed the lowerCamelCase naming convention. In Assignment 3, instead of initializing 7 variables, I created 8 lists of num, String, etc. with options that my story will randomly pick.</ul>
 
