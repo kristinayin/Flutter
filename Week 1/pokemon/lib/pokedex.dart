@@ -30,7 +30,7 @@ class _PokedexState extends State<Pokedex> {
       // 2
       appBar: AppBar(
           title: Image.asset('assets/title.png',
-              fit: BoxFit.contain, height: 100)),
+              fit: BoxFit.contain, height: 50)),
       // 3
       body: SafeArea(
         child: ListView.builder(

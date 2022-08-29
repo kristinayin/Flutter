@@ -36,7 +36,7 @@ class PokemonApp extends StatelessWidget {
 
       theme: theme.copyWith(
         colorScheme: theme.colorScheme.copyWith(
-          primary: Color.fromARGB(255, 23, 3, 3),
+          primary: Color.fromARGB(255, 0, 0, 0),
           secondary: Color.fromARGB(255, 106, 106, 106),
         ),
         textTheme: theme.textTheme.apply(
@@ -76,86 +76,92 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-   return Padding(
-        padding: const EdgeInsets.all(10),
-        child: ListView(
-          children: <Widget>[
-            Container(
-              alignment: Alignment.center,
-              padding: const EdgeInsets.all(10),
-              child: Image.asset('title.png'),
-            ),
-            Container(
-                alignment: Alignment.center,
-                padding: const EdgeInsets.all(10),
-                child: const Text(
-                  'Login',
-                  style: TextStyle(fontSize: 20),
-                )
-              ),
-            Container(
-              padding: const EdgeInsets.all(10),
-              child: TextField(
-                controller: emailController,
-                decoration: const InputDecoration(
-                  border: OutlineInputBorder(),
-                  labelText: 'Email',
-                ),
-              ),
-            ),
-            Container(
-              padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
-              child: TextField(
-                obscureText: true,
-                controller: passwordController,
-                decoration: const InputDecoration(
-                  border: OutlineInputBorder(),
-                  labelText: 'Password',
-                ),
-              ),
-            ),
-            TextButton(
-              onPressed: () {
-                //forgot password screen
-              },
-              child: const Text(
-                'Forgot Password',
-              ),
-            ),
-            Container(
-                height: 50,
-                padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
-                child: ElevatedButton(
-                  child: const Text('Login'),
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          // 10
-                          return Pokedex(title: "pokedex");
-                        },
-                      ),
-                    );
-                  },
-                )),
-            Row(
+    return Scaffold(
+        body: Padding(
+            padding: const EdgeInsets.all(10),
+            child: ListView(
               children: <Widget>[
-                const Text("Don't have an account?"),
-                TextButton(
-                  child: const Text(
-                    'Create an account',
-                    style: TextStyle(fontSize: 12),
+                Container(
+                  alignment: Alignment.center,
+                  padding: const EdgeInsets.all(10),
+                  child: Image.asset('assets/title.png'),
+                ),
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: TextField(
+                    controller: emailController,
+                    style: TextStyle(color: Colors.white),
+                    decoration: const InputDecoration(
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(width: 1, color: Colors.grey),
+                      ),
+                      labelText: 'Email',
+                      labelStyle: TextStyle(color: Colors.white),
+                    ),
                   ),
+                ),
+                Container(
+                  padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                  child: TextField(
+                    obscureText: true,
+                    controller: passwordController,
+                    style: TextStyle(color: Colors.white),
+                    decoration: const InputDecoration(
+                      enabledBorder: OutlineInputBorder(
+                        borderSide:
+                            BorderSide(width: 1, color: Colors.grey),
+                      ),
+                      labelText: 'Password',
+                      labelStyle: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ),
+                TextButton(
                   onPressed: () {
-                    //signup screen
+                    //forgot password screen
                   },
-                )
+                  child: const Text(
+                    'Forgot Password',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+                Container(
+                    height: 50,
+                    padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.blue, // Background color
+                        onPrimary:
+                            Colors.black, // Text Color (Foreground color)
+                      ),
+                      child: const Text('Login'),
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    Pokedex(title: "pokedex")));
+                      },
+                    )),
+                Row(
+                  children: <Widget>[
+                    const Text(
+                      "Don't have an account?",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    TextButton(
+                      child: const Text(
+                        'Create an account',
+                        style: TextStyle(fontSize: 14, color: Colors.red),
+                      ),
+                      onPressed: () {
+                        //signup screen
+                      },
+                    )
+                  ],
+                  mainAxisAlignment: MainAxisAlignment.center,
+                ),
               ],
-              mainAxisAlignment: MainAxisAlignment.center,
-            ),
-          ],
-        ));
+            )));
   }
-
 }
