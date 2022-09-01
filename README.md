@@ -100,7 +100,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
 ## Weekly Assignment Tracker
 
 - [X] [Week 1](#week-1)
-- [ ] [Week 2](#week-2)
+- [X] [Week 2](#week-2)
 - [ ] [Week 3](#week-3)
 - [ ] [Week 4](#week-4)
 - [ ] [Week 5](#week-5)
@@ -125,7 +125,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul>Create repo and README.md</ul>
 <li>Assignment 3</li>
   <ul>Set up Flutter</ul>
-  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/flutter_doctor.gif" alt="gif running flutter doctor" width="585" height="370"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/flutter_doctor.gif" alt="gif running flutter doctor" width="50%" height="50%"></ul>
 <li>Assignment 4</li>
   <ul>Screenshot of first app</ul>
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%201/screenshot.png" alt="first app screenshot" width="30%" height="30%"></ul>
@@ -143,6 +143,25 @@ I hope to be able to build my own apps and have them available in app stores, ho
 
 <!-- WEEK 2 -->
 ## Week 2
+
+<p>Assignments 1-3 are in the hello.dart file in the Week 2 folder.</p>
+
+<li>Assignment 1</li>
+  <ul>This assignment follows Challenge 5 in Chapter 2 of Dart Apprentice. The final print is shown below:</ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment1.png" alt="assignment 1 week 2" width="70%" height="70%"></ul>
+<li>Assignment 2</li>
+   <ul>I created a method that takes in the angle (in degrees) and plugs it into the trig identity sin^2(x)+cos^2(x). The final print is shown below:</ul>
+    <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment2.png" alt="assignment 2 week 2" width="70%" height="70%"></ul>
+<li>Assignment 3</li>
+  <ul>I created a 'story generator' that plugs in randomly selected keywords from lists (2 num lists and 6 string lists). The story is ~150 words (147 to be exact). This is one of the generated results:</ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment3.png" alt="assignment 3 week 2" width="90%" height="90%"></ul>
+<li>Assignment 4</li>
+  <ul>I made sure to have comments throughout my code.</ul>
+<li>Assignment 5</li>
+  <ul>I added a login page with email and password fields and a login button to my pokemon app from last week (Week 1 folder).</ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%202/assignment5.gif" alt="gif pokemon app" width="30%" height="30%"></ul>
+<li>Nice to have</li>
+  <ul>I made sure all my variables followed the lowerCamelCase naming convention. In Assignment 3, instead of initializing 7 variables, I created 8 lists of num, String, etc. with options that my story will randomly pick.</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

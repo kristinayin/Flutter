@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pokemon.dart';
-import 'pokemon_detail.dart';
+import 'pokedex.dart';
 
 void main() {
   runApp(const PokemonApp());
@@ -18,7 +17,7 @@ class PokemonApp extends StatelessWidget {
     // 3
     return MaterialApp(
       // 4
-      title: 'Pokedex',
+      title: 'Login',
       /*
       theme: ThemeData(
         primaryColor: Color.fromARGB(255, 23, 3, 3),
@@ -37,7 +36,7 @@ class PokemonApp extends StatelessWidget {
 
       theme: theme.copyWith(
         colorScheme: theme.colorScheme.copyWith(
-          primary: Color.fromARGB(255, 23, 3, 3),
+          primary: Color.fromARGB(255, 0, 0, 0),
           secondary: Color.fromARGB(255, 106, 106, 106),
         ),
         textTheme: theme.textTheme.apply(
@@ -48,7 +47,7 @@ class PokemonApp extends StatelessWidget {
       ),
 
       // 6
-      home: const MyHomePage(title: 'Pokedex'),
+      home: const MyHomePage(title: 'Login'),
     );
   }
 }
@@ -72,85 +71,97 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  TextEditingController emailController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
-    // 1
     return Scaffold(
-      // 2
-      appBar: AppBar(title: Image.asset('assets/title.png', fit: BoxFit.cover)),
-      // 3
-      body: SafeArea(
-        child: ListView.builder(
-          itemCount: Pokemon.pokedex.length,
-          itemBuilder: (BuildContext context, int index) {
-            // 7
-            return GestureDetector(
-              // 8
-              onTap: () {
-                // 9
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      // 10
-                      return PokemonDetail(pokemon: Pokemon.pokedex[index]);
-                    },
+        body: Padding(
+            padding: const EdgeInsets.all(10),
+            child: ListView(
+              children: <Widget>[
+                Container(
+                  alignment: Alignment.center,
+                  padding: const EdgeInsets.all(10),
+                  child: Image.asset('assets/title.png'),
+                ),
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: TextField(
+                    controller: emailController,
+                    style: TextStyle(color: Colors.white),
+                    decoration: const InputDecoration(
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(width: 1, color: Colors.grey),
+                      ),
+                      labelText: 'Email',
+                      labelStyle: TextStyle(color: Colors.white),
+                    ),
                   ),
-                );
-              },
-              // 11
-              child: buildPokemonCard(Pokemon.pokedex[index]),
-            );
-          },
-        ),
-      ),
-    );
-  }
-
-  Widget buildPokemonCard(Pokemon pokemon) {
-    // 1
-    return Card(
-      color: Colors.black,
-      // 1
-      elevation: 0.0,
-      // 2
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
-      // 3
-      child: Padding(
-        padding: const EdgeInsets.all(16.0),
-        // 4
-        child: Column(
-          children: <Widget>[
-            Image(image: AssetImage(pokemon.imageURL)),
-            // 5
-            const SizedBox(
-              height: 14.0,
-            ),
-            // 6
-            Text(
-              // name
-              pokemon.name,
-              style: const TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.w700,
-                fontFamily: 'Pokemon',
-                color: Colors.white,
-              ),
-            ),
-
-            Text(
-              // num
-              pokemon.num,
-              style: const TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.w700,
-                fontFamily: 'Pokemon',
-                color: Colors.white,
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
+                ),
+                Container(
+                  padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                  child: TextField(
+                    obscureText: true,
+                    controller: passwordController,
+                    style: TextStyle(color: Colors.white),
+                    decoration: const InputDecoration(
+                      enabledBorder: OutlineInputBorder(
+                        borderSide:
+                            BorderSide(width: 1, color: Colors.grey),
+                      ),
+                      labelText: 'Password',
+                      labelStyle: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {
+                    //forgot password screen
+                  },
+                  child: const Text(
+                    'Forgot Password',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+                Container(
+                    height: 50,
+                    padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.blue, // Background color
+                        onPrimary:
+                            Colors.black, // Text Color (Foreground color)
+                      ),
+                      child: const Text('Login'),
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    Pokedex(title: "pokedex")));
+                      },
+                    )),
+                Row(
+                  children: <Widget>[
+                    const Text(
+                      "Don't have an account?",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    TextButton(
+                      child: const Text(
+                        'Create an account',
+                        style: TextStyle(fontSize: 14, color: Colors.red),
+                      ),
+                      onPressed: () {
+                        //signup screen
+                      },
+                    )
+                  ],
+                  mainAxisAlignment: MainAxisAlignment.center,
+                ),
+              ],
+            )));
   }
 }
