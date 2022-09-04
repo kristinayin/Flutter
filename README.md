@@ -168,10 +168,9 @@ I hope to be able to build my own apps and have them available in app stores, ho
 <!-- WEEK 3 -->
 ## Week 3
 <li>Assignment 1</li>
-  <ul>Generate statements about what a character Sarah would eat each day of the week based on rules.</ul>
-  <ul><i>Bonus:</i> I represented data in enums and made use of enum extension.</ul>
+  <ul>Generate statements about what a character Sarah would eat each day of the week based on rules.
+  <i>Bonus:</i> I represented data in enums and made use of enum extension.</ul>
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment1.gif" alt="assignment 1 week 3" width="50%" height="50%"></ul>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
