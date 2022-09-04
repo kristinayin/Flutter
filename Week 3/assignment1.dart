@@ -19,14 +19,14 @@ enum Food {
 
 // extension of Food enum
 extension FoodExtension on Food {
-  static const Map<Food, String> values = {
+  static const Map<Food, String> names = {
     Food.Thai: "ate Thai food.",
     Food.sandwhich: "made a ham sandwhich.",
     Food.pizza: "ate pizza.",
     Food.tacos: "ate tacos.",
   };
 
-  String get value => values[this].toString();
+  String get name => names[this].toString();
 }
 
 // pick random value from Weather
@@ -108,7 +108,7 @@ void printLine(Day today, Weather weatherToday) {
       " is " +
       weatherToday.name +
       ", so Sarah " +
-      decideFood(today, weatherToday).value);
+      decideFood(today, weatherToday).name);
 }
 
 void printWeeklyFood() {
