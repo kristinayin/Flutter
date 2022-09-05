@@ -82,44 +82,6 @@ class _PokemonDetailState extends State<PokemonDetail> {
                 color: Colors.white,
               ),
             ),
-            // 7
-            /*
-            Expanded(
-              // 8
-              child: ListView.builder(
-                padding: const EdgeInsets.all(7.0),
-                itemCount: widget.pokemon.evolutions.length,
-                itemBuilder: (BuildContext context, int index) {
-                  final evolution = widget.pokemon.evolutions[index];
-                  // 9
-                  // TODO: Add ingredient.quantity
-                  return Text('Evolution:'
-                      '${evolution.name} ${evolution.num} ${evolution.descrip}');
-                },
-              ),
-            ),
-            */
-            /*
-            Slider(
-              // 10
-              min: 1,
-              max: 10,
-              divisions: 9,
-              // 11
-              label: '${_sliderVal * widget.recipe.servings} servings',
-              // 12
-              value: _sliderVal.toDouble(),
-              // 13
-              onChanged: (newValue) {
-                setState(() {
-                  _sliderVal = newValue.round();
-                });
-              },
-              // 14
-              activeColor: Colors.green,
-              inactiveColor: Colors.black,
-            ),
-            */
           ],
         ),
       ),
