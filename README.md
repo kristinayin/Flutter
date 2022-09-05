@@ -174,7 +174,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
 <li>Assignment 2</li>
   <ul>Similate a pokemon battle between Charmander, Bulbasaur, and Squirtle.<br>
   <i>Bonus:</i> I adjusted damage based on pokemon types and revived all pokemon to 10 HP at the end.</ul>
-  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment2.gif" alt="assignment 1 week 3" width="50%" height="50%"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment2.gif" alt="assignment 1 week 3" width="45%" height="45%"></ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
