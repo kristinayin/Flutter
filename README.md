@@ -171,6 +171,10 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul>Generate statements about what a character Sarah would eat each day of the week based on rules.<br>
   <i>Bonus:</i> I represented data in enums and made use of enum extension.</ul>
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment1.gif" alt="assignment 1 week 3" width="50%" height="50%"></ul>
+<li>Assignment 2</li>
+  <ul>Similate a pokemon battle between Charmander, Bulbasaur, and Squirtle.<br>
+  <i>Bonus:</i> I adjusted damage based on pokemon types and revived all pokemon to 10 HP at the end.</ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment2.gif" alt="assignment 1 week 3" width="50%" height="50%"></ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
