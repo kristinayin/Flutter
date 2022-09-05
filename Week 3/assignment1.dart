@@ -14,7 +14,7 @@ enum Food {
   Thai,
   sandwhich,
   pizza,
-  tacos,
+  tacos
 }
 
 // extension of Food enum
