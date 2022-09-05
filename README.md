@@ -175,6 +175,10 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul>Similate a pokemon battle between Charmander, Bulbasaur, and Squirtle.<br>
   <i>Bonus:</i> I adjusted damage based on pokemon types and revived all pokemon to 10 HP at the end.</ul>
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment2.gif" alt="assignment 2 week 3" width="35%" height="35%"></ul>
+<li>Assignment 3</li>
+  <ul>Updated login page with validators for text form fields.<br>
+  <i>Bonus</i> Used regex for pattern validation for both email and password text form field </ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment3.gif" alt="gif pokemon app" width="30%" height="30%"></ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
