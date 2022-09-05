@@ -182,7 +182,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
 <li>Assignment 4</li>
   <ul>Figured out how to add a search bar, but did not figure out search functionality yet. 
   <i></i></ul>
-  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment3.gif" alt="gif pokemon app" width="30%" height="30%"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment4.gif" alt="gif pokemon app" width="30%" height="30%"></ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
