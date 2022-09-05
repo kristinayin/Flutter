@@ -29,8 +29,14 @@ class _PokedexState extends State<Pokedex> {
     return Scaffold(
       // 2
       appBar: AppBar(
-          title: Image.asset('assets/title.png',
-              fit: BoxFit.contain, height: 50)),
+          title: Image.asset('assets/title.png', fit: BoxFit.contain, height: 50),
+          actions: <Widget>[
+             IconButton(
+              onPressed: () => Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (_) => const SearchPage())),
+              icon: const Icon(Icons.search))
+          ],
+      ),
       // 3
       body: SafeArea(
         child: ListView.builder(
@@ -61,6 +67,111 @@ class _PokedexState extends State<Pokedex> {
   }
 
   Widget buildPokemonCard(Pokemon pokemon) {
+    // 1
+    return Card(
+      color: Colors.black,
+      // 1
+      elevation: 0.0,
+      // 2
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+      // 3
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        // 4
+        child: Column(
+          children: <Widget>[
+            Image(image: AssetImage(pokemon.imageURL)),
+            // 5
+            const SizedBox(
+              height: 14.0,
+            ),
+            // 6
+            Text(
+              // name
+              pokemon.name,
+              style: const TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.w700,
+                fontFamily: 'Pokemon',
+                color: Colors.white,
+              ),
+            ),
+
+            Text(
+              // num
+              pokemon.num,
+              style: const TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.w700,
+                fontFamily: 'Pokemon',
+                color: Colors.white,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// Search Page
+class SearchPage extends StatelessWidget {
+  const SearchPage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+          // The search area here
+          title: Container(
+        width: double.infinity,
+        height: 40,
+        decoration: BoxDecoration(
+            color: Colors.white, borderRadius: BorderRadius.circular(5)),
+        child: Center(
+          child: TextField(
+            decoration: InputDecoration(
+                prefixIcon: const Icon(Icons.search),
+                suffixIcon: IconButton(
+                  icon: const Icon(Icons.clear),
+                  onPressed: () {
+                    /* Clear the search field */
+                  },
+                ),
+                hintText: 'Search...',
+                border: InputBorder.none),
+          ),
+        ),
+      )),
+      body: SafeArea(
+        child: ListView.builder(
+          itemCount: Pokemon.pokedex.length,
+          itemBuilder: (BuildContext context, int index) {
+            // 7
+            return GestureDetector(
+              // 8
+              onTap: () {
+                // 9
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      // 10
+                      return PokemonDetail(pokemon: Pokemon.pokedex[index]);
+                    },
+                  ),
+                );
+              },
+              // 11
+              child: buildPokemonCard(Pokemon.pokedex[index]),
+            );
+          },
+        ),
+      ),
+    );
+  }
+
+    Widget buildPokemonCard(Pokemon pokemon) {
     // 1
     return Card(
       color: Colors.black,
