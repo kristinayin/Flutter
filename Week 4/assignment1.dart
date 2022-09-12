@@ -12,17 +12,18 @@
  * values.
 */
 
-// Assignment 2
-
 // prints name with format firstName lastName if isSurnameAtStart is null or true, or else prints lastName firstName
 void printName(String firstName, String lastName, [bool? isSurnameAtStart]) {
   isSurnameAtStart = isSurnameAtStart ?? false;
   String fullName;
+  /*
   if (isSurnameAtStart) {
     fullName = lastName + " " + firstName; // Yin Kristina
   } else {
     fullName = firstName + " " + lastName; // Kristina Yin
   }
+  */
+  (isSurnameAtStart) ? fullName = lastName + " " + firstName : fullName = firstName + " " + lastName;
   print(fullName);
 }
 
