@@ -191,7 +191,7 @@ I hope to be able to build my own apps and have them available in app stores, ho
 <li>Assignment 1</li>
   <ul>A function that prints out a fullname based on 3 pararmeters: a required String firstName, a required String lastName, and an optional bool isSurnameAtStart. Uses if-null operator to handle null value for isSurnameAtStart.<br>
   <i>Bonus:</i> I represented data in enums and made use of enum extension.</ul>
-  <ul><img src="hhttps://github.com/kristinayin/Flutter/blob/main/Week%204/assignment1.png" alt="assignment 1 week 3" width="50%" height="50%"></ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%204/assignment1.png" alt="assignment 1 week 4" width="50%" height="50%"></ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
