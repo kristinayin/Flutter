@@ -177,17 +177,21 @@ I hope to be able to build my own apps and have them available in app stores, ho
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment2.gif" alt="assignment 2 week 3" width="35%" height="35%"></ul>
 <li>Assignment 3</li>
   <ul>Updated pokemon app's login page with validators for text form fields (app is in Week 1 folder).<br>
-  <i>Bonus</i> Used regex for pattern validation for both email and password text form field </ul>
+  <i>Bonus:</i> Used regex for pattern validation for both email and password text form field </ul>
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment3.gif" alt="gif pokemon app" width="30%" height="30%"></ul>
 <li>Assignment 4</li>
   <ul>Figured out how to add a search bar, but did not figure out search functionality yet. 
-  <i></i></ul>
+  <i>TO BE UPDATED LATER</i></ul>
   <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment4.gif" alt="gif pokemon app" width="30%" height="30%"></ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- WEEK 4 -->
 ## Week 4
+<li>Assignment 1</li>
+  <ul>A function that prints out a fullname based on 3 pararmeters: a required String firstName, a required String lastName, and an optional bool isSurnameAtStart. Uses if-null operator to handle null value for isSurnameAtStart.<br>
+  <i>Bonus:</i> I represented data in enums and made use of enum extension.</ul>
+  <ul><img src="https://github.com/kristinayin/Flutter/blob/main/Week%203/assignment1.gif" alt="assignment 1 week 3" width="50%" height="50%"></ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

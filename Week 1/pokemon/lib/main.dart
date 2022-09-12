@@ -132,8 +132,9 @@ class _MyLoginPageState extends State<MyLoginPage> {
                                 BorderSide(width: 1, color: Colors.grey),
                           ),
                           errorBorder: OutlineInputBorder(
-                            borderSide:
-                                BorderSide(width: 1, color: Color.fromARGB(255, 255, 0, 0)),
+                            borderSide: BorderSide(
+                                width: 1,
+                                color: Color.fromARGB(255, 255, 0, 0)),
                           ),
                           labelText: 'Email',
                           labelStyle: TextStyle(color: Colors.white),
@@ -153,7 +154,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
                             borderSide:
                                 BorderSide(width: 1, color: Colors.grey),
                           ),
-                           errorBorder: OutlineInputBorder(
+                          errorBorder: OutlineInputBorder(
                             borderSide: BorderSide(
                                 width: 1,
                                 color: Color.fromARGB(255, 255, 0, 0)),
@@ -174,6 +175,7 @@ class _MyLoginPageState extends State<MyLoginPage> {
                       ),
                     ),
                     Container(
+                        width: 400,
                         height: 50,
                         padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
                         child: ElevatedButton(
