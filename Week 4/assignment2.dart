@@ -60,7 +60,10 @@ void main() {
       .where((pokemon) => pokemonMap[pokemon]?.first == 'grass')
       .toList();
 
+  print("Fire type pokemon list:");
   print(firePokemons);
+  print("Water type pokemon list:");
   print(waterPokemons);
+  print("Grass type pokemon list:");
   print(grassPokemons);
 }
