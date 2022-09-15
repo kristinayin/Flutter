@@ -150,7 +150,8 @@ void main() {
   // PART 2: testing String extension
   print("\nTESTING STRING EXTENSION: ");
   String testing = 'nfvREIFNOER';
-  print(testing.capitalize);
+  print('original: ' + testing); 
+  print('new: ' + testing.capitalize);
 
   // PART 3: creating list of Pokemon
   Pokemon bulbasaur = Pokemon('Bulbasaur', 'grass', 30);
