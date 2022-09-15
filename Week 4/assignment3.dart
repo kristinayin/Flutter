@@ -137,7 +137,7 @@ class Pokemon implements Comparable {
 
 void main() {
   // PART 1: testing Vehicle functions
-  print(">> TESTING VEHICLE CLASS EXTENSION: ");
+  print("TESTING VEHICLE CLASS EXTENSION: ");
   Bike bike = Bike();
   testingVehicle(bike);
 
