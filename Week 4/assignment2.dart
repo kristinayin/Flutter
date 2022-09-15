@@ -26,9 +26,8 @@ void main() {
 
   uppercasePokemons.sort();
 
-  for (var uppercasePokemon in uppercasePokemons) {
-    print(uppercasePokemon);
-  }
+  print("Uppercase pokemon list in alphabetical order:");
+  print(uppercasePokemons);
 
   // PART 2: Create a list of MapStrings which contains pokemon, their types, and their speed, and use where method to filter the pokemon as per their types into new lists
 
