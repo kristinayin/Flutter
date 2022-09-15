@@ -1,4 +1,4 @@
-/** Assignment 1-3, Week 4
+/** Assignment 1, Week 4
  *  Flutter Bootcamp 
  *  By Kristina Yin
  * 
